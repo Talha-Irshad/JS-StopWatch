@@ -1,16 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Stopwatch</title>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
-        </style>
-        
+    </style>
+
     <link rel="stylesheet" href="files/style.css">
 </head>
+
 <body>
+    <div
+        style="font-family:'Roboto', sans-serif;text-align: center; color: white; font-size: 12pt;background-color:#0a0e38; height: 70px; padding-top: 28px; width: 100%;">
+        <h1>Stopwatch</h1>
+    </div>
     <div style="text-align: center;">
         <div class="timer" style="display:flex; justify-content: center;">
             <h1 id="min">0</h1>
@@ -25,7 +31,8 @@
             <button onclick="reset()">Reset</button>
         </div>
     </div>
-    
+
 </body>
 <script src="files/app.js"></script>
+
 </html>
