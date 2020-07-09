@@ -28,10 +28,11 @@ function pause(){
 }
 function reset(){
     milsec=0
-    document.getElementById("milsec").innerHTML=milsec;
+    document.getElementById("milsec").innerHTML="00";
     sec=0
     document.getElementById("sec").innerHTML=sec;
     min=0
     document.getElementById("min").innerHTML=min;
     clearInterval(interval)
+    document.getElementById("startb").disabled=false
 }
